@@ -1,0 +1,15 @@
+{
+  "name": "user-system",
+  "version": "1.0.0",
+  "description": "user can create the account, upate and delete the account with authenticated system",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=staging & nodemon index",
+    "prod": "cross-env NODE_ENV=production & nodemon index"
+  },
+  "author": "Syful Islam",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
